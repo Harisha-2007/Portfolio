@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harisha S | Java Full Stack Developer</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#111827;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:60px;
+margin-bottom:10px;
+}
+
+.hero-content h2{
+color:#38bdf8;
+margin-bottom:20px;
+}
+
+.hero-content p{
+max-width:700px;
+line-height:1.8;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+color:#38bdf8;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+}
+
+.project-card h3{
+color:#38bdf8;
+margin-bottom:10px;
+}
+
+.timeline{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.achievement{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+display:block;
+margin:10px;
+}
+
+footer{
+background:#111827;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+.socials{
+margin-top:20px;
+}
+
+.socials a{
+font-size:30px;
+color:white;
+margin:0 15px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:40px;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+nav ul{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Harisha S</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#internships">Internships</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Harisha S</h1>
+
+<h2 id="typing"></h2>
+
+<p>
+B.Tech Information Technology student passionate about
+Java Full Stack Development, Problem Solving and Software Engineering.
+</p>
+
+<a href="resume.pdf.pdf" class="btn">Download Resume</a>
+
+<div class="socials">
+<a href="https://github.com/Harisha-2007"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/harisha-sasikumar-2b3040327" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="mailto:harishasasi85@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+
+<div class="card">
+<h3>Education</h3>
+<br>
+<p>
+B.Tech Information Technology
+<br><br>
+St. Joseph's Institute of Technology
+<br><br>
+CGPA : 8.2
+</p>
+</div>
+
+<div class="card">
+<h3>Career Objective</h3>
+<br>
+<p>
+Aspiring Java Full Stack Developer seeking opportunities
+to apply programming skills, problem solving abilities and
+software development knowledge in real-world projects.
+I have a strong foundation in web development technologies and basic knowledge of cloud computing. 
+I enjoy creating responsive websites and I am constantly learning new technologies to enhance my skills.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Java</div>
+<div class="skill">C Programming</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">SQL</div>
+<div class="skill">Spring Boot</div>
+<div class="skill">Git & GitHub</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Digital Health Record System</h3>
+
+<p>
+Built a QR-based health record platform with multilingual
+access for migrant workers under Smart India Hackathon.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Perfume Product Landing Page</h3>
+
+<p>
+Responsive single-page website built using HTML and CSS
+for showcasing perfume products.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Library Management System</h3>
+
+<p>
+Java-based application to manage books, issue records
+and return tracking.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="internships">
+
+<h2 class="section-title">Internships</h2>
+
+<div class="timeline">
+
+<div class="achievement">
+<h3>CodSoft</h3>
+<p>Web Development Internship (4 Weeks)</p>
+</div>
+
+<div class="achievement">
+<h3>Approtech R&D Solutions Pvt Ltd</h3>
+<p>Java Full Stack Development Internship</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Achievements</h2>
+
+<div class="timeline">
+
+<div class="achievement">
+Solved 1500+ Problems in SkillRack
+</div>
+
+<div class="achievement">
+Solved 100+ Problems in LeetCode
+</div>
+
+<div class="achievement">
+Bronze Badge in Java - HackerRank
+</div>
+
+<div class="achievement">
+Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<a href="mailto:harishasasi85@gmail.com">
+📧 harishasasi85@gmail.com
+</a>
+
+<a href="tel:+919342856782">
+📱 +91 9342856782
+</a>
+
+<a href="#">
+GitHub Profile
+</a>
+
+<a href="#">
+LinkedIn Profile
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>© 2026 Harisha S | Java Full Stack Developer</h3>
+
+</footer>
+
+<script>
+
+const roles = [
+"Java Full Stack Developer",
+"Problem Solver",
+"Web Developer",
+"Software Engineer"
+];
+
+let roleIndex = 0;
+let charIndex = 0;
+
+function typeEffect(){
+
+const currentRole = roles[roleIndex];
+
+document.getElementById("typing").textContent =
+currentRole.substring(0,charIndex);
+
+charIndex++;
+
+if(charIndex > currentRole.length){
+charIndex = 0;
+roleIndex = (roleIndex + 1) % roles.length;
+}
+
+setTimeout(typeEffect,150);
+
+}
+
+typeEffect();
+
+</script>
+
+</body>
+</html>
